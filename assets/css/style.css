@@ -259,18 +259,23 @@ img {
 
 
 .page-top {
+  
   font-size: 12px;
   font-weight: bold;
   display: block;
-  padding: 10px;
+  padding: 5em;
   cursor: pointer;
   text-align: center;
   background-color: #ccc;
+  margin: 0 -500%;
 }
 
 
 .footer {
   background-color: #1d1d1d;
+  margin: 0 -500%;
+  padding: 0 500%;
+  width: 100%;
 }
 
 .footer .l-inner {
@@ -285,5 +290,6 @@ img {
 
   .page-top a {
     color: #333;
-    border: none;
+    text-decoration: none;
+    font-size: 2.0em;
   }
